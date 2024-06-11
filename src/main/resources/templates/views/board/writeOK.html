@@ -6,6 +6,6 @@
 </script>
 <script th:if="${result > 0}" th:inline="javascript">
     alert("등록 성공");
-    location.href = "detail/[[${post.id}]]";
+    location.href = "/detail/[[${post.id}]]";
 </script>
 </html>
